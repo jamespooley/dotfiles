@@ -1,0 +1,14 @@
+\set QUIET 1
+\pset null '[NULL]'
+
+\timing
+
+\set VERBOSITY verbose
+\set HISTFILE ~/.psql_history- :DBNAME
+\set HISTCONTROL ignoredups
+
+-- Autocomplete keywords in upper case regardless of typed case
+\set COMP_KEYWORD_CASE upper
+\unset QUIET
+
+\set PROMPT1 '%[%033[1m%]%M %n@%/%R%[%033[0m%]%# '
