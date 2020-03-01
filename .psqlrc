@@ -1,9 +1,0 @@
-\pset null '(null)'
-
-\set PROMPT1 '%M:%> %n@%/%R%#%x '
-
-\timing
-\x auto
-\set HISTFILE ~/.psql_history- :DBNAME
-
-\set COMP_KEYWORD_CASE upper
