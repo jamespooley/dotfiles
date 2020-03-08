@@ -5,3 +5,8 @@ options(
   warnPartialMatchAttr = TRUE,
   menu.graphics = FALSE
 )
+
+
+exit <- function(save = "no") {
+  q(save)
+}
