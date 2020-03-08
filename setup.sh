@@ -16,3 +16,5 @@ function linkdotfile {
 
 
 linkdotfile .tmux.conf
+linkdotfile .psqlrc
+linkdotfile .Rprofile
