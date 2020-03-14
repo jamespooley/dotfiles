@@ -10,6 +10,10 @@ alias ....='cd ../../../../'
 
 alias R='R --no-save'
 
+alias pyclean='find . \
+  \( -type f -name "*.py[co]" -o -type d -name "__pycache__" \) -delete &&
+  echo "Remove *.pyc files and __pycache__ directory"'
+
 if [ -x /usr/bin/dircolors ]; then
   test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
   alias ls='ls --color=auto'
