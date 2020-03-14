@@ -25,3 +25,12 @@ export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
+
+
+vsed() {
+  search=$1
+  replace=$2
+  shift
+  shift
+  vim -c "bufdo set! eventignore-=Syntax | %s/$search/$replace/gce" $*
+}
