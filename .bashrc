@@ -66,3 +66,11 @@ try {
       print(e)
   ''')"
 }
+
+csv2json {
+  python3 -c "
+  exec('''
+  import csv,json
+  print(json.dumps(list(csv.reader(open(\'${1}\')))))
+  ''')"
+}
