@@ -8,6 +8,8 @@ alias ..='cd ..'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'
 
+alias timestamp='date "+%s"'
+
 alias R='R --no-save'
 
 alias pyclean='find . \
