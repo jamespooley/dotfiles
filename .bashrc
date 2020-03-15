@@ -60,7 +60,7 @@ try {
   python3 -c "
   exec('''
   try:
-      import $1 as _
+      import ${1} as _
       print(_.__file__)
   except Exception as e:
       print(e)
