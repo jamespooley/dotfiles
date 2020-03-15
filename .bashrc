@@ -43,7 +43,6 @@ vsed() {
   vim -c "bufdo set! eventignore-=Syntax | %s/$search/$replace/gce" $*
 }
 
-
 mkpass {
   if [ $1 ]; then
     length=$1
@@ -55,4 +54,15 @@ mkpass {
   exec('print(base64.b64encode(os.urandom(64))[:${length}].decode(\'utf-8\'))')"`
   echo $_hash | xclip -selection clipboard
   echo "New password copied to system clipboard"
+}
+
+try {
+  python3 -c "
+  exec('''
+  try:
+      import $1 as _
+      print(_.__file__)
+  except Exception as e:
+      print(e)
+  ''')"
 }
