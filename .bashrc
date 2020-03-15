@@ -14,6 +14,8 @@ alias pyclean='find . \
   \( -type f -name "*.py[co]" -o -type d -name "__pycache__" \) -delete &&
   echo "Remove *.pyc files and __pycache__ directory"'
 
+alias pg='ps aux | grep -v grep | grep $1'
+
 if [ -x /usr/bin/dircolors ]; then
   test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
   alias ls='ls --color=auto'
