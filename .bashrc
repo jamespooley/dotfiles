@@ -74,3 +74,5 @@ csv2json {
   print(json.dumps(list(csv.reader(open(\'${1}\')))))
   ''')"
 }
+
+export EDITOR=`which vim`
