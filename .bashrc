@@ -12,6 +12,8 @@ alias timestamp='date "+%s"'
 
 alias R='R --no-save'
 
+alias tmux='tmux -2'
+
 alias pyclean='find . \
   \( -type f -name "*.py[co]" -o -type d -name "__pycache__" \) -delete &&
   echo "Remove *.pyc files and __pycache__ directory"'
