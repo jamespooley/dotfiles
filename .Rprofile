@@ -23,4 +23,7 @@ make_command <- function(x, ..., print = TRUE) {
   x
 }
 
-exit <- make_command(q, save = "no", print = FALSE)
+if (interactive()) {
+  exit <- make_command(q, save = "no", print = FALSE)
+  pwd <- make_command(getwd)
+}
