@@ -78,3 +78,7 @@ csv2json {
 }
 
 export EDITOR=`which vim`
+
+export PATH="~/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
