@@ -1,0 +1,7 @@
+[user]
+	name = James Pooley
+	email = james.pooley@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
