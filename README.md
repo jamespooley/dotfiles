@@ -11,3 +11,4 @@ My dotfiles
 * [The Tao of Tmux](https://leanpub.com/the-tao-of-tmux)
 * [R Startup](https://rstats.wtf/r-startup.html) from Jennifer Bryan and Jim Hester's excellent [WTF (What They Forgot) to Teach You about R](https://rstats.wtf/)
 * [A Guide to Building a Great `.bashrc`](https://medium.com/@tzhenghao/a-guide-to-building-a-great-bashrc-23c52e466b1c)
+* [`cmus` Themes](https://github.com/cmus/cmus/wiki/themes)
