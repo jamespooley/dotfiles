@@ -97,3 +97,6 @@ if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
   # use existing PS1 settings
   PROMPT_COMMAND=$(sed -r 's|^(.+)(\\\$\s*)$|__git_ps1 "\1" "\2"|' <<< $PS1)
 fi
+
+. ~/.bash_prompt
+
