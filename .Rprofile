@@ -6,6 +6,20 @@ options(
   menu.graphics = FALSE
 )
 
+options(
+  usethis.full_name = "James Pooley",
+  usethis.description = list(
+    `Authors@R` = 'person("James", "Pooley", role = c("aut", "cre"))',
+    License = "MIT + full LICENSE",
+    Version = "0.0.0.9000"
+  ),
+  usethis.protocol = "ssh"
+)
+
+if (interactive()) {
+  suppressMessages(require(devtools))
+}
+
 
 # https://medium.com/@davidhughjones/r-functions-without-brackets-2052bb7ee396
 print.command <- function (cmd) {
