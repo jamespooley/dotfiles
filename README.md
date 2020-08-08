@@ -13,3 +13,4 @@ My dotfiles
 * [A Guide to Building a Great `.bashrc`](https://medium.com/@tzhenghao/a-guide-to-building-a-great-bashrc-23c52e466b1c)
 * [`cmus` Themes](https://github.com/cmus/cmus/wiki/themes)
 * [How to Set Helvetica as the Default Sans-Serif Font in Matplotlib](https://olgabotvinnik.com/blog/how-to-set-helvetica-as-the-default-sans-serif-font-in/)
+* [ Customizing Starup](https://www.statmethods.net/interface/customizing.html) in R
