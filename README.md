@@ -15,3 +15,4 @@ My dotfiles
 * [How to Set Helvetica as the Default Sans-Serif Font in Matplotlib](https://olgabotvinnik.com/blog/how-to-set-helvetica-as-the-default-sans-serif-font-in/)
 * [ Customizing Starup](https://www.statmethods.net/interface/customizing.html) in R
 * [Dotbot](https://github.com/anishathalye/dotbot)
+* [`yadm`](https://yadm.io/) is Yet Another Dotfiles Manager
