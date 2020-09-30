@@ -16,3 +16,4 @@ My dotfiles
 * [ Customizing Starup](https://www.statmethods.net/interface/customizing.html) in R
 * [Dotbot](https://github.com/anishathalye/dotbot)
 * [`yadm`](https://yadm.io/) is Yet Another Dotfiles Manager
+* [Bash Prompt HOWTO](https://tldp.org/HOWTO/Bash-Prompt-HOWTO/index.html)
