@@ -17,3 +17,4 @@ My dotfiles
 * [Dotbot](https://github.com/anishathalye/dotbot)
 * [`yadm`](https://yadm.io/) is Yet Another Dotfiles Manager
 * [Bash Prompt HOWTO](https://tldp.org/HOWTO/Bash-Prompt-HOWTO/index.html)
+* [Bashmarks: Directory Bookmarks in the Shell](https://everyhue.me/posts/bashmarks-directory-bookmarks/)
