@@ -98,5 +98,12 @@ if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
   PROMPT_COMMAND=$(sed -r 's|^(.+)(\\\$\s*)$|__git_ps1 "\1" "\2"|' <<< $PS1)
 fi
 
+function mcd() {
+  if [[ ! -d "$1" ]]; then
+    mkdir -p "$1"
+    cd "$1"
+  fi
+}
+
 . ~/.bash_prompt
 
