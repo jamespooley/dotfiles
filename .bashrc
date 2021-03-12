@@ -107,3 +107,4 @@ function mcd() {
 
 . ~/.bash_prompt
 
+export SPARK_HOME="$HOME/bin/spark-3.0.0"'
