@@ -20,14 +20,14 @@ if (interactive()) {
   require(usethis, quietly = TRUE)
 }
 
-if (requireNamespace("prompt", quietly = TRUE)) {
-  prompt_git <- function(...) {
-    "[", prompt::git_branch(), "]",
-    " > "
-  }
-  prompt::set_prompt(prompt_git)
-  rm(prompt_git)
-}
+# if (requireNamespace("prompt", quietly = TRUE)) {
+#   prompt_git <- function(...) {
+#     "[", prompt::git_branch(), "]",
+#     " > "
+#   }
+#   prompt::set_prompt(prompt_git)
+#   rm(prompt_git)
+# }
 
 
 # https://medium.com/@davidhughjones/r-functions-without-brackets-2052bb7ee396
