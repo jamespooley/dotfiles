@@ -17,7 +17,7 @@ options(
 )
 
 if (interactive()) {
-  suppressMessages(require(devtools))
+  require(usethis, quietly = TRUE)
 }
 
 if (requireNamespace("prompt", quietly = TRUE)) {
